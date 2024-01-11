@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>globalsocial</title>
+        <meta name="viewport" content="width-device-width, initial-scale-1">
+        <link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+</script>
+<script
+src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js">
+
+</script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="globalsocial.js"></script>
+<script
+src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js">
+</script>
+<script
+src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js">
+</script>
+
+    </head>
+    <body>
+        <div class="container">
+            <button id="logout" onclick="logout();" class="glyphicon-log-out btn btn-danger">Logout</button>
+            <center>
+                <h1 class="header">
+                    globalsocial
+                    <sup>
+                        <img src="images (2).png">
+                    </sup>
+
+                </h1>
+                <h3 id="user_name" class="color_white"></h3>
+                <div class="form-group input_div_room_rage">
+                    <label>#Adicionar Sala:</label>
+                    <input type="text" id="room_name" class="btn btn-sucess">#Adicionar Sala</button>
+
+                </div>
+            <button onclick="addRoom();" class="btn btn-success">#adicionar sala</button>
+
+            <h3 class="color_white">#SALASTRENDING</h3>
+            <div id="output"></div>
+            </center> 
+        </div>
+    </body>
